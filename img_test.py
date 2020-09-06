@@ -11,7 +11,7 @@ import cv2
 from keras.applications.mobilenetv2 import MobileNetV2
 from keras.models import load_model
 import numpy as np
-import sys
+#import sys
 
 def draw_label(image, point, label, font=cv2.FONT_HERSHEY_SIMPLEX,
                font_scale=1, thickness=2):
